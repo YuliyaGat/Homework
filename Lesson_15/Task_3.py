@@ -4,6 +4,7 @@ class TVController:
    #current_ch = 0
    def __init__(self, channel_list):
        self.channel_list = channel_list
+       TVController.current_ch = 0
 
    def  first_channel(self):
        TVController.current_ch = 0
@@ -42,6 +43,7 @@ class TVController:
 
 
 controller = TVController(CHANNELS)
+print(controller.next_channel())
 print(controller.first_channel())
 print(controller.last_channel())
 print(controller.turn_channel(1))
