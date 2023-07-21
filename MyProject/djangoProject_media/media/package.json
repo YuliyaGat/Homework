@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "my-media-project-392910",
+  "private_key_id": "3921ef8deaae0385c7121c2da699a4266a068588",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDCt9/U4AN0ASPG\nQ7lZE9/F5hdxWWGEH8ZrZMywzTGR5+cjxh8TJs4cjOMOUrZtet58Dti6du/BYh5/\nQSGT6D9nBKqvs5si963FlasgeUiFBEh4c54wG2oLzfkBYLWTV9f+svpI/dWyafWQ\nCdyE98m5H+k35GkvpAoV+FIdwoE5Qvl4zQzpYG+K2K0jLvuBTu+EminEk0G6kuHp\nzhK4meEn2MYzbwWzqQBCDBpxAoOkFRFPFpc3Sow/S7PNz6Vy2zacrPHZONt8rOpS\nbnEG9xeY6w3zcMQOjM5KzVsvX++2iQNsWyCQGO0vUfR+YHBOzi9Xjs+8NW/eybLS\n3K/PG7WxAgMBAAECggEAN2AviczDbqQ8VlBAT/L0+sT6+cNflkGrHjOmesmARWxc\nMbJQeBPbHgd7M0GWnAALceCPBkh42thar/oH4JZ2IYgUOq+reQBTLRPpfOzBEQMs\n0QSggjHpsL29CQVF3kdnKAoiX8vAkGLN8U68phwKBFns63ZL676NF75tLAV61puT\nikvJDNQCMVf4TUygP15PcrEvedekdseTq1lk2FdhTx//NMo05r01wWQmdDVFWfpF\neI+IjXXz6PTf3vz0WuQK517QYuXuQ+F4T76rvYv04HKVPEkYUq4t6joJRszIwbdx\nIAvfkGDLtIk6EHfMqITUfrvsD59ntyjBdE96vKeW+QKBgQD7yPVIaIzYAYZZZkRk\nOf3xw8JARxaYYpdyAUiAEhsVYVpnT4fKnNr3rZtopocdpRs7Z/VppgFKSuLwATGf\nDvmFZvQmGpCSbvDTc3DlN9VYLcGCXN3f7/N2afIRzHc2RQF5EX6gcjslW6KgC7v2\nBf+6/Neb6+hPukOV8nljDGWeJwKBgQDF+lpRT1ZProrP1VpECtFu60brSgTUcINU\nLXVx4aMB27zxywXWZVCRWTbs9UH9lwggv84eXM9g5tr6FVk4QHBZx0sUvQ9I5DPb\n9QIrFOJd61koDLiSluL07FAESTIT0L2JUWzWUQMOp9sxQxCkXX+8ossNhpO8CA7F\nejYYl37MZwKBgQCDshYR3JWmug1yn1owbmDUXwcwpb480HzUZbVtP4spALXPibrG\nEIs7t3OtJkVQDTcUOIkVzH2qRUc0L/urbaK30yTq9UQfQ6X1g9FOI4kUyUIJFNf8\ntL5MdpfmFWNZYHinwa3Q8E7deHO0cM7MnVColm2UIa1uXkfRm3VAiJBySwKBgQC5\n4ea9Iy2Z4PqqStrWugWMDFHpBvVj9UQJXClCRKWFUCimKYYQl82+urIsZ9aO4Cic\nfxprPZ7kj7yYREUh4LbcRJeFIEHioYjjg7aGdrRXlGqAhPkjgZIUfnBepc7j9gCP\nlqkGzMd/EjFmnl5YxQTzOzJFP88kI7iix61VB6DhDwKBgQDUvpUVNKPPjJEvdpl3\nKSp+//XltuI73RNDDOzqtQRCtavtiuZA8SRdqSTeIlqelkdNm5srXybV4pOpl/Di\ndiRcN0Hvh2p/mmJaVe8y57pPlQS3y6H08hyESl5cirdBldsfmMbLGvIKpot+Tit3\npiBEdhvf9Hpl2MKB6jYKu2bmGQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "ukrainian-media@my-media-project-392910.iam.gserviceaccount.com",
+  "client_id": "114683692043976080641",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ukrainian-media%40my-media-project-392910.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

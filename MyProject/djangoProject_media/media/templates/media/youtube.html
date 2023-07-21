@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> </title>
+  <meta charset="utf-8">
+  {% load static %}
+  {% load mathfilters %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+{#  <link rel="stylesheet" href="static/media/css/style.css">#}
+</head>
+
+<body>
+<div>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" >
+      <img src="{% static 'media/css/images/Logo1.png' %}" alt="Logo" style="width:100px;" >
+    </a>
+  </div>
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="{% url 'media:start' %}">Useful links</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="{% url 'media:platform_usage' %}">Platform usage</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="{% url 'media:use_of_the_media' %}">Use of the media</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="{% url 'media:web_sites' %}">Web sites</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link active" href="{% url 'media:telegram' %}">Telegram</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- Blue background with white text -->
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+</nav>
+    </div>
+
+
+    <div class="article-clean">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                    <div class="intro">
+                        <h1 class="text-center" style="font-family:ABeeZee, sans-serif;">Top Ukrainian YouTube Channels in June 2023</h1>
+                    </div>
+                    <div class="text">
+                        <h6>Data source: youtube.com</h6>
+                        <div class="container" style="overflow-x:auto;">
+                            <table class="table table-striped">
+                                <thead class="table">
+                                    <tr>
+{#                                        <th></th>#}
+{#                                        <th>Date</th>#}
+                                        <th>Title in Ukrainian</th>
+                                        <th>Subscribers(odered)</th>
+                                        <th>Views</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    {% if df %}
+                                    {% for i in df %}
+                                    <tr>
+{#                                        <td>{{i.id}}</td>#}
+{#                                        <td>{{i.Date}}</td>#}
+                                        <td>{{i.Title_in_Ukrainian}}</td>
+                                        <td>{{i.Subscribers|div:1000|floatformat:2}} k </td>
+                                        <td>{{i.Views|div:1000000 | floatformat:2}} mln</td>
+
+                                    </tr>
+
+                                    {% endfor %}
+                                    {% endif %}
+                                </tbody>
+                            </table>
+                        </div>
+
+</body>
+</html>

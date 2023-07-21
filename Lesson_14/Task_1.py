@@ -4,8 +4,8 @@ def logger(func):
         for i in args:
             text += str(i) + ', '
         print(text[:-2])
-        rez = func(*args)
-        return rez
+        #rez = func(*args)
+        #return rez
     return wrapped
 
 

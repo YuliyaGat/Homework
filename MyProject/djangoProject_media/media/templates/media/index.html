@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> </title>
+  <meta charset="utf-8">
+  {% load static %}
+    <link rel="stilesheet" href="{% static 'css/style.css' %}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="body">
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" >
+      <img src="{% static 'media/css/images/Logo1.png' %}" alt="Logo" style="width:100px;" >
+    </a>
+  </div>
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="{% url 'media:platform_usage' %}">Platform usage</a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link active" href="{% url 'media:use_of_the_media' %}">Use of the media</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="{% url 'media:web_sites' %}">Web sites</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="{% url 'media:telegram' %}">Telegram</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="{% url 'media:youtube' %}">YouTube</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Blue background with white text -->
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark"> </div>
+</nav>
+<div class="container mt-3">
+  <h2>Useful links</h2>
+    <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Link</th>
+        <th>Description</th>
+        <th>Organization</th>
+        <th>Research partner in Ukraine</th>
+        <th>Method</th>
+        <th>Period of field work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> <a href="https://internews.org/wp-content/uploads/2022/12/USAID-Internews_Media-Consumption-Survey_2022_eng.pdf">Ukrainian media use and trust in 2022</a></td>
+        <td>The study was carried out by InMind at the request of the International Non-Governmental Organization Internews, implementing the Ukrainian Media Project (U-Media Project), with the financial support of the US Agency for International Development (USAID).</td>
+        <td>USAID</td>
+        <td>Inmaind</td>
+        <td>Nationwide survey at respondents' homes in cities of 50K+, N ~ 3,200 and focus groups</td>
+        <td>November 2022</td>
+      </tr>
+      <tr>
+        <td> <a href="https://dtm.iom.int/reports/ukraine-returns-report-16-23-january-2023">UKRAINE RETURNS REPORT</a></td>
+        <td>The International Organization for Migration (IOM) began observing significant movements of displaced people back to their habitual place of residence (hereafter, "returns").</td>
+        <td>IOM</td>
+        <td>Multicultural Insights</td>
+        <td>phone-based surve</td>
+        <td>January 2023</td>
+      </tr>
+      <tr>
+        <td> <a href="https://www.ndi.org/sites/default/files/January_2023_Ukraine_wartime_survey_ENG.pdf">OPPORTUNITIES AND CHALLENGES FACING UKRAINE’S DEMOCRATIC TRANSITION</a></td>
+        <td>This research is funded by the United States Agency for International Development (USAID), Sweden, UK Aid and Global Affairs Canada | Cette étude est financée par l'Agence des États-Unis pour le développement international (USAID), la Suède, UK Aid et Affaires mondiales Canada. Survey fieldwork was conducted by Kyiv International Institute of Sociology.</td>
+        <td>National Democratic Instutute</td>
+        <td>Kyiv International Institute of Sociology</td>
+        <td>Nationwide Telephone Survey</td>
+        <td>January 4 - 16, 2023</td>
+      </tr>
+      <tr>
+        <td> <a href="https://www.jta.com.ua/wp-content/uploads/2023/03/Telegram-Channels-2023_EN.pdf">HOW NON-INSTITUTIONALIZED NEWS TELEGRAM-CHANNELS OPERATE AND CAPTURE THE AUDIENCE IN UKRAINIAN SEGMENT</a></td>
+        <td>How Non-Institutionalized News Telegram-Channels Operate and Capture the Audience in Ukrainian Segment Analytical Report. – Kyiv, Ukrainian Media and Communication Institute NGO, 2023. — 69 p.</td>
+        <td>Ukrainian Media and Communication Institute NGO in partnership with Deutsche Welle Akademie with the financial support of the German Federal Ministry for Economic Cooperation and Development</td>
+        <td>KIIS</td>
+        <td>Public opinion poll and focus group discussions. TOP-10 TGStat-rated Telegram-channels of the Ukrainian segment were selected (🠞 https:// uk.tgstat.com/ratings/channels) as of 19 September 2022. The channels were selected from the "All Categories" section by the number of subscribers</td>
+        <td>24 February 2022 – 31 December 2022</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>

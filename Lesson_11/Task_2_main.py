@@ -3,7 +3,6 @@ import sys
 import os
 name_dict = sys.argv[1]
 
-
 def open_json(name_dict):
     if os.path.exists(name_dict):
       with open(name_dict, 'r') as book:
